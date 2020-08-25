@@ -145,7 +145,7 @@ EMAIL_BACKEND = config('EMAIL_BACKEND')
 #EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 EMAIL_FILE_PATH = '//Users/trevor/dev/myproject/myproject/app-messages'
 STATIC_ROOT='/home/boards/staticfiles/'
-DEFAULT_FROM_EMAIL='trevor_crowley@hotmail.com'
+DEFAULT_FROM_EMAIL='webmaster@em8493.tcrow.io'
 SENDGRID_API_KEY = config('SENDGRID_API_KEY')
 
 EMAIL_HOST = 'smtp.sendgrid.net'
